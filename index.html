@@ -20,54 +20,49 @@
 
 <body>
   <div class="page-wrapper fade-in">
-    <!-- Sidebar -->
     <aside class="sidebar">
       <div class="sidebar-inner">
-        <img src="assets/profile.jpg" alt="Profile photo" class="profile-photo" />
-        <h1>Zhang Hu</h1>
-        <p class="subtitle">Ph.D. Student</p>
-        <p class="affiliation">Ningbo University</p>
-
-        <div class="sidebar-links">
-          <a href="mailto:2501100068@nbu.edu.cn">Email</a>
-          <a href="https://github.com/HuZhang0" target="_blank">GitHub</a>
-          <a href="https://scholar.google.com/citations?user=6L4NYWgAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>
+        <div class="author-box">
+          <img src="assets/profile.jpg" alt="Zhang Hu" class="author-avatar" />
+          <h1 class="author-name">Zhang Hu</h1>
+          <p class="author-bio">Ph.D. Student<br>Ningbo University</p>
         </div>
 
-        <div class="sidebar-section">
+        <ul class="author-links">
+          <li><a href="mailto:2501100068@nbu.edu.cn">Email</a></li>
+          <li><a href="https://github.com/HuZhang0" target="_blank">GitHub</a></li>
+          <li><a href="https://scholar.google.com/citations?user=6L4NYWgAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a></li>
+        </ul>
+
+        <div class="sidebar-block">
           <h3>Education</h3>
           <div class="edu-item">
-            <div class="edu-degree">Ph.D. in Electronic Science &amp; Technology</div>
-            <div class="edu-school">Ningbo University</div>
-            <div class="edu-year">2025 - Present</div>
+            <span class="edu-degree">Ph.D. in Electronic Science &amp; Technology</span>
+            <span class="edu-meta">Ningbo University, 2025 – Present</span>
           </div>
           <div class="edu-item">
-            <div class="edu-degree">M.S. in Electronic Science &amp; Technology</div>
-            <div class="edu-school">Ningbo University</div>
-            <div class="edu-year">2022 - 2025</div>
+            <span class="edu-degree">M.S. in Electronic Science &amp; Technology</span>
+            <span class="edu-meta">Ningbo University, 2022 – 2025</span>
           </div>
           <div class="edu-item">
-            <div class="edu-degree">B.S. in Electronic Information Engineering</div>
-            <div class="edu-school">Anhui Agricultural University</div>
-            <div class="edu-year">2018 - 2022</div>
+            <span class="edu-degree">B.S. in Electronic Information Engineering</span>
+            <span class="edu-meta">Anhui Agricultural University, 2018 – 2022</span>
           </div>
         </div>
 
-        <div class="sidebar-section">
+        <div class="sidebar-block">
           <h3>Research Interests</h3>
           <ul class="interest-list">
             <li>Logic Synthesis</li>
-            <li>Combinational Equivalence Checking (CEC)</li>
-            <li>Technology Mapping</li>
+            <li>Combinational Equivalence Checking</li>
             <li>SAT / SMT Solving</li>
           </ul>
         </div>
       </div>
     </aside>
 
-    <!-- Main Content -->
     <main class="main-content">
-      <section class="about">
+      <section>
         <h2>About Me</h2>
         <p>
           I am currently a Ph.D. student at Ningbo University, supervised by
@@ -76,72 +71,76 @@
           from Ningbo University (2025). My research focuses on
           <b>logic synthesis</b> and <b>combinational equivalence checking (CEC)</b>, with
           particular interest in structural choices, technology mapping, and SAT-based verification.
+          I am also an active contributor to the open-source logic synthesis framework
+          <a href="https://github.com/nbulsi/also" target="_blank">ALSO</a>.
         </p>
       </section>
 
-      <section class="news">
+      <section>
         <h2>Recent News</h2>
-        <ul>
+        <ul class="news-list">
           <li>
-            <span class="news-date">[2025.11]</span>
-            Our team won the <b>Third Prize</b> in the
+            <span class="news-date">[2026.05]</span> Four papers were accepted by <b>ISEDA 2026</b> and presented in Singapore.
+          </li>
+          <li>
+            <span class="news-date">[2025.11]</span> Our team won the <b>Third Prize</b> in the
             <a href="https://eda.icisc.cn/" target="_blank">Integrated Circuit EDA Design Elite Challenge</a>
             (National Finals, Problem 4).
           </li>
         </ul>
       </section>
 
-      <section class="publications">
+      <section>
         <h2>Publications</h2>
-        <ul>
+        <ul class="pub-list">
           <li>
-            <div class="pub-title">Timing-Oriented DFF and Splitter Refinement for RSFQ Circuits</div>
-            <div class="pub-authors">Qiangqiang Hu, <b>Zhang Hu</b>, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</div>
-            <div class="pub-venue"><i>2026 International Symposium of Electronics Design Automation (ISEDA)</i>, 2026</div>
+            <span class="pub-title">Timing-Oriented DFF and Splitter Refinement for RSFQ Circuits</span>
+            <span class="pub-authors">Qiangqiang Hu, <b>Zhang Hu</b>, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</span>
+            <span class="pub-venue"><i>2026 International Symposium of Electronics Design Automation (ISEDA)</i>, 2026</span>
           </li>
           <li>
-            <div class="pub-title">Efficient SAT Sweeping via Direct Circuit-Based SAT Solving</div>
-            <div class="pub-authors">Junjie Xu, <b>Zhang Hu</b>, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</div>
-            <div class="pub-venue"><i>2026 International Symposium of Electronics Design Automation (ISEDA)</i>, 2026</div>
+            <span class="pub-title">STP-Based Combinational Equivalence Checking for Ternary Logic Synthesis</span>
+            <span class="pub-authors">Yanzhen Wang, <b>Zhang Hu</b>, Jingning Yu, Chengyu Ma, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</span>
+            <span class="pub-venue"><i>2026 International Symposium of Electronics Design Automation (ISEDA)</i>, 2026</span>
           </li>
           <li>
-            <div class="pub-title">STP-Based Combinational Equivalence Checking for Ternary Logic Synthesis</div>
-            <div class="pub-authors">Yanzhen Wang, <b>Zhang Hu</b>, Jingning Yu, Chengyu Ma, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</div>
-            <div class="pub-venue"><i>2026 International Symposium of Electronics Design Automation (ISEDA)</i>, 2026</div>
+            <span class="pub-title">Efficient SAT Sweeping via Direct Circuit-Based SAT Solving</span>
+            <span class="pub-authors">Junjie Xu, <b>Zhang Hu</b>, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</span>
+            <span class="pub-venue"><i>2026 International Symposium of Electronics Design Automation (ISEDA)</i>, 2026</span>
           </li>
           <li>
-            <div class="pub-title">Efficient Majority-Based Resubstitution via Two-Step Filtering</div>
-            <div class="pub-authors">Yulin Chen, <b>Zhang Hu</b>, Chengyu Ma, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</div>
-            <div class="pub-venue"><i>2026 International Symposium of Electronics Design Automation (ISEDA)</i>, 2026</div>
+            <span class="pub-title">Efficient Majority-Based Resubstitution via Two-Step Filtering</span>
+            <span class="pub-authors">Yulin Chen, <b>Zhang Hu</b>, Chengyu Ma, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</span>
+            <span class="pub-venue"><i>2026 International Symposium of Electronics Design Automation (ISEDA)</i>, 2026</span>
           </li>
           <li>
-            <div class="pub-title">Enhancing Logic Optimization of Alliance Tool Based on Directed Acyclic Graphs</div>
-            <div class="pub-authors">Qiyao He, <b>Zhang Hu</b>, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</div>
-            <div class="pub-venue"><i>Integration</i>, 2025: 102580</div>
+            <span class="pub-title">Enhancing Logic Optimization of Alliance Tool Based on Directed Acyclic Graphs</span>
+            <span class="pub-authors">Qiyao He, <b>Zhang Hu</b>, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</span>
+            <span class="pub-venue"><i>Integration</i>, 2025: 102580</span>
             <a href="https://www.sciencedirect.com/science/article/pii/S0167926025002378" target="_blank" class="pub-link">[Link]</a>
           </li>
           <li>
-            <div class="pub-title">Mixed Structural Choice Operator: Enhancing Technology Mapping with Heterogeneous Representations</div>
-            <div class="pub-authors"><b>Zhang Hu</b>, Hongyang Pan, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</div>
-            <div class="pub-venue"><i>2025 62nd ACM/IEEE Design Automation Conference (DAC)</i>, San Francisco, CA, USA, 2025, pp. 1-7</div>
+            <span class="pub-title">Mixed Structural Choice Operator: Enhancing Technology Mapping with Heterogeneous Representations</span>
+            <span class="pub-authors"><b>Zhang Hu</b>, Hongyang Pan, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</span>
+            <span class="pub-venue"><i>2025 62nd ACM/IEEE Design Automation Conference (DAC)</i>, San Francisco, CA, USA, 2025, pp. 1-7</span>
             <a href="https://ieeexplore.ieee.org/document/11133368" target="_blank" class="pub-link">[Link]</a>
           </li>
           <li>
-            <div class="pub-title">SAT-Sweeping Based on XOR-Majority Graph</div>
-            <div class="pub-authors">Jiaxin Peng, <b>Zhang Hu</b>, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</div>
-            <div class="pub-venue"><i>2025 International Symposium of Electronics Design Automation (ISEDA)</i>, IEEE, 2025, pp. 256-261</div>
+            <span class="pub-title">SAT-Sweeping Based on XOR-Majority Graph</span>
+            <span class="pub-authors">Jiaxin Peng, <b>Zhang Hu</b>, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</span>
+            <span class="pub-venue"><i>2025 International Symposium of Electronics Design Automation (ISEDA)</i>, IEEE, 2025, pp. 256-261</span>
             <a href="https://ieeexplore.ieee.org/abstract/document/11100963" target="_blank" class="pub-link">[Link]</a>
           </li>
           <li>
-            <div class="pub-title">Auto-CEC: Combinational Equivalence Checking via Intelligent Sweeping Engine Selection</div>
-            <div class="pub-authors">Haonan Wei, Wentao Jiang, <b>Zhang Hu</b>, Zhengyuan Shi, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</div>
-            <div class="pub-venue"><i>2025 International Symposium of Electronics Design Automation (ISEDA)</i>, IEEE, 2025, pp. 449-454</div>
+            <span class="pub-title">Auto-CEC: Combinational Equivalence Checking via Intelligent Sweeping Engine Selection</span>
+            <span class="pub-authors">Haonan Wei, Wentao Jiang, <b>Zhang Hu</b>, Zhengyuan Shi, Yinshui Xia, Lunyao Wang, and Zhufei Chu*</span>
+            <span class="pub-venue"><i>2025 International Symposium of Electronics Design Automation (ISEDA)</i>, IEEE, 2025, pp. 449-454</span>
             <a href="https://ieeexplore.ieee.org/abstract/document/11100798" target="_blank" class="pub-link">[Link]</a>
           </li>
           <li>
-            <div class="pub-title">A Novel Structural Choices Generation Method for Logic Restructuring</div>
-            <div class="pub-authors"><b>Zhang Hu</b>, Chengyu Ma, and Zhufei Chu*</div>
-            <div class="pub-venue"><i>2024 2nd International Symposium of Electronics Design Automation (ISEDA)</i>, IEEE, 2024, pp. 306-311</div>
+            <span class="pub-title">A Novel Structural Choices Generation Method for Logic Restructuring</span>
+            <span class="pub-authors"><b>Zhang Hu</b>, Chengyu Ma, and Zhufei Chu*</span>
+            <span class="pub-venue"><i>2024 2nd International Symposium of Electronics Design Automation (ISEDA)</i>, IEEE, 2024, pp. 306-311</span>
             <a href="https://ieeexplore.ieee.org/abstract/document/10617691" target="_blank" class="pub-link">[Link]</a>
           </li>
         </ul>
